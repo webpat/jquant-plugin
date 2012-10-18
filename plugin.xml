@@ -108,17 +108,12 @@
             name="Backtest">
       </category>
       <view
+            allowMultiple="false"
+            category="org.jquant.category"
             class="org.jquant.plugin.StrategyResultView"
             icon="icons/money.png"
             id="org.jquant.view.backtestResults"
             name="Backtest Results View"
-            restorable="true">
-      </view>
-      <view
-            category="org.jquant.category"
-            class="org.jquant.plugin.StrategyListView"
-            id="org.jquant.view.backtestList"
-            name="BacktestListView"
             restorable="true">
       </view>
    </extension>

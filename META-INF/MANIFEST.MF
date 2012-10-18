@@ -18,7 +18,8 @@ Require-Bundle: org.eclipse.ui,
  org.apache.log4j;bundle-version="1.2.14",
  org.jquant-core;bundle-version="1.0.0",
  org.eclipse.jdt.ui;bundle-version="3.7.2",
- org.jquant.plugin.libs;bundle-version="1.0.0"
+ org.jquant.plugin.libs;bundle-version="1.0.0",
+ org.eclipse.ui.forms;bundle-version="3.5.101"
 Bundle-ActivationPolicy: lazy
 Eclipse-RegisterBuddy: org.jquant.plugin.libs
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
